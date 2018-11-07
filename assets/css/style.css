@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Oswald:200,300,400,500,600,700');
+
+/*----- Style for Homepage Full Slider -----*/
+/*.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.carousel-item img {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:auto;
+}
+
+.carousel-item a {
+  display: block;
+  width:100%;
+}
+
+
+/*------Style for Navigation-----*/
+.homepage-nav {
+  background:rgba(57,47,35,0.9)
+}
+
+.nav-link {
+  font-family:'Oswald', sans-serif;
+  font-size:18px;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:#ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color:#7ab5a7;
+}
+
+.nav-active {
+  color:#7ab5a7;
+}
+
+
+.navbar-light .navbar-toggler {
+  color: rgba(255,255,255,0.9);
+  border-color: rgba(255,255,255,0.9);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#navbardrop {
+  padding-top: 16px;
+}
+
+.facebook-nav-link {
+}
+
+.facebook-nav-link i {
+    width:32px;
+    height:32px;
+    padding:13px 0;
+    border-radius:50%;
+    font-size:16px;
+    line-height:7px;
+    text-align:center;
+    color:#ffffff;
+    border:1px solid #ffffff;
+    background-color:transparent;
+    transition:all 0.5 ease-in-out;
+    -moz-transition:all 0.5 ease-in-out;
+    -webkit-transition:all 0.5 ease-in-out;
+    -o-transition:all 0.5 ease-in-out;    
+}
+
+.facebook-nav-link i:hover {
+    background-color:#7ab5a7;
+    
+}
+
+/*-----Mobile and Tablet Styles-----*/
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
