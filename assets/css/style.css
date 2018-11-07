@@ -148,17 +148,8 @@ body {
 }
 
 /*-----About Page Styles-----*/
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .about-header-container {
-    height: 60vh;
+    height: 50vh;
     background: url('../images/homepage-slide-yoga-timetable.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -170,6 +161,26 @@ body {
     position: relative;
     margin-bottom:30px;
 }
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family:'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.gal {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	}	
+.gal img{ width: 100%; padding: 7px 0;}
 
 /*-----Footer-----*/
 footer {
@@ -250,8 +261,12 @@ footer {
 }
 
 @media (max-width: 576px) {
+.gal {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+}  
 .footer-box {padding-bottom:10px;}
-
 .footer-box:nth-child(1), .footer-box:nth-child(2) {
   border-bottom:none;  
 }
