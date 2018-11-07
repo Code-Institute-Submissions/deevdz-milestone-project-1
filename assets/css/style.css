@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Oswald:200,300,400,500,600,700');
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
 /*----- Style for Homepage Full Slider -----*/
-/*.carousel-item {
-  height: 100vh;
+.carousel-item {
+  height: 85vh;
   min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
+}
 
 .carousel-item img {
-  height: 100vh;
+  height: 85vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -55,7 +53,6 @@
   color:#7ab5a7;
 }
 
-
 .navbar-light .navbar-toggler {
   color: rgba(255,255,255,0.9);
   border-color: rgba(255,255,255,0.9);
@@ -67,6 +64,18 @@
 
 #navbardrop {
   padding-top: 16px;
+}
+
+.dropdown-item {
+  font-family:'Oswald', sans-serif;
+  font-weight: 300;
+  color:#392f23;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #392f23;
+  text-decoration: none;
+  background-color: rgba(153,184,209,0.3);
 }
 
 .facebook-nav-link {
@@ -92,6 +101,68 @@
 .facebook-nav-link i:hover {
     background-color:#7ab5a7;
     
+}
+
+/*-----Footer-----*/
+footer {
+    background:rgba(57,47,35,0.9);
+    color:#fafafa;
+    min-height: 120px;
+    margin:0;
+}
+
+.footer-space {
+    padding-top: 4.0625rem;
+    padding-bottom: 4.0625rem;
+}
+
+.footer-space h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: 'Oswald';
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+}
+
+.footer-box {
+  border-top:solid 3px #7ab5a7;
+  border-bottom:solid 3px #7ab5a7;
+}
+
+.footer-box h4 {
+  font-size: 1.25rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;  
+  padding-top: 20px;
+}
+
+.footer-box .fa-mobile {
+  font-size:48px;
+}
+
+.footer-box .fa-envelope-open-o {
+  font-size:32px;
+}
+
+.footer-box .fa-map-pin {
+   font-size:32px;
+}
+
+.footer-box a {
+  color:#ffffff;
+}
+
+.footer-box p {
+  color: #99b8d1;
+  font-weight: 700;
+  font-size:14px;
+}
+
+.footer-copyright {
+  padding-top:4rem;
+  text-align:center;
 }
 
 /*-----Mobile and Tablet Styles-----*/
