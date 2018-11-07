@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="icon" href="/assets/images/favicon.png" sizes="16x16 32x32" type="image/png">
     <title></title>
-
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light homepage-nav fixed-top">
@@ -34,10 +33,10 @@
         <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul class="navbar-nav ml-auto flex-nowrap">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+                    <a href="index.html" class="nav-link m-2 menu-item">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link m-2 menu-item">About</a>
+                    <a href="about.html" class="nav-link m-2 menu-item nav-active">About</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Classes</a>
@@ -66,7 +65,25 @@
                 </li>                   
             </ul>
         </div>
-    </nav>
+    </nav
+    <header>
+    <div class="container-fluid about-header-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <!-- Callout -->
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class='block-divider block-divider--orange'>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">€19.99</s> <span class="visible-xs"><br></span> <strong><mark>First one is free!</mark></strong></p>
+                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+    </div>
+    </header>
     <footer>
         <div class="container footer-space">
             <div class="row justify-content-center">
@@ -75,7 +92,7 @@
                 </div>
             </div>
             <div class="row justify-content-around align-items-center">
-                 <div class="col-10 offset-1 col-md-3 footer-box">
+                 <div class="col-sm-offset-1 col-10 col-md-3 footer-box">
                      <div class="row align-items-center justify-content-around">
                          <div class="col-3">
                              <i class="fa fa-mobile"></i>
@@ -86,7 +103,7 @@
                          </div>
                      </div>
                 </div>
-                <div class="col-10 offset-1 col-md-3 footer-box justify-content-around">
+                <div class="col-sm-offset-1 col-10 col-md-3 footer-box justify-content-around">
                      <div class="row align-items-center">
                          <div class="col-3">
                              <i class="fa fa-envelope-open-o"></i>
@@ -97,7 +114,7 @@
                          </div>
                      </div>
                 </div>
-                <div class="col-10 offset-1 col-md-3 footer-box justify-content-around">
+                <div class="col-sm-offset-1 col-10 col-md-3 footer-box justify-content-around">
                      <div class="row align-items-center">
                          <div class="col-3">
                              <i class="fa fa-map-pin"></i>
