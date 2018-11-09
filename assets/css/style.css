@@ -186,6 +186,113 @@ body {
 	}	
 .gal img{ width: 100%; padding: 7px 0;}
 
+
+/*----- What Do I Need Styles -----*/
+.what-do-i-need-header-container {
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+/*----- Reformer Bed Styles -----*/
+.reformer-bed-header-container{
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+/*----- Yogalates Styles -----*/
+.yogalates-header-container{
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+/*----- Total Barre Styles -----*/
+.total-barre-header-container{
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+/*----- Hot Yoga Styles -----*/
+.hot-yoga-header-container{
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+/*----- Pregnancy Yoga Styles -----*/
+.pregnancy-yoga-header-container{
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+/*----- Pregnancy Yoga Styles -----*/
+.meditation-header-container {
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+
+
 /*-----Footer-----*/
 footer {
     background:rgba(57,47,35,0.9);
@@ -256,7 +363,9 @@ footer {
 /*-----Mobile and Tablet Styles-----*/
 
 @media (min-width: 992px ) {
-.about-header-container {
+.about-header-container, .reformer-bed-header-container,.what-do-i-need-header-container, 
+.yogalates-header-container, .total-barre-header-container, .hot-yoga-header-container,
+.pregnancy-yoga-header-container, .meditation-header-container {
   height: 45vh;
 }
 .jumbotron h1 {
