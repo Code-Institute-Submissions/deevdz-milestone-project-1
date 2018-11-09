@@ -216,6 +216,9 @@ body {
     content: "\f067"; 
 }
 
+.card-body:last-of-type {
+  border-bottom:1px solid rgba(0,0,0,.125);
+}
 /*----- Reformer Bed Styles -----*/
 .reformer-bed-header-container{
     height: 70vh;
@@ -305,7 +308,35 @@ body {
     margin-bottom:30px;
 }
 
+/*----- Timetable Styles -----*/
+.timetable-header-container {
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
 
+/*----- Workshop Styles -----*/
+.workshop-header-container {
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
 
 /*-----Footer-----*/
 footer {
@@ -379,7 +410,8 @@ footer {
 @media (min-width: 992px ) {
 .about-header-container, .reformer-bed-header-container,.what-do-i-need-header-container, 
 .yogalates-header-container, .total-barre-header-container, .hot-yoga-header-container,
-.pregnancy-yoga-header-container, .meditation-header-container {
+.pregnancy-yoga-header-container, .meditation-header-container, .timetable-header-container, 
+.workshop-header-container{
   height: 45vh;
 }
 .jumbotron h1 {
