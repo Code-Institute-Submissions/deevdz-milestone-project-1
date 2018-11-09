@@ -38,7 +38,7 @@ body {
   text-align:center;
 }
 
-.homepage-about-section h1, .homepage-classes-section h1 {
+.homepage-about-section h1, .homepage-classes-section h1, .about-gallery h1 {
   font-size: 2.2rem;
   text-align: center;
   padding: 20px 0;
@@ -149,8 +149,8 @@ body {
 
 /*-----About Page Styles-----*/
 .about-header-container {
-    height: 50vh;
-    background: url('../images/homepage-slide-yoga-timetable.jpg') no-repeat center center fixed;
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -170,9 +170,13 @@ body {
 .jumbotron h1 {
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: 30px;
     font-family:'Oswald', sans-serif;
     text-transform: uppercase;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75em;
 }
 
 .gal {
@@ -250,6 +254,16 @@ footer {
 }
 
 /*-----Mobile and Tablet Styles-----*/
+
+@media (min-width: 992px ) {
+.about-header-container {
+  height: 45vh;
+}
+.jumbotron h1 {
+  font-size:2.25em;
+}
+}
+
 @media (min-width: 768px) {
 .navbar-brand.abs
     {
