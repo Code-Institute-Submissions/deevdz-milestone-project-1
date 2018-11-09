@@ -202,6 +202,20 @@ body {
     margin-bottom:30px;
 }
 
+.card-header {
+  background-color: rgba(153,184,209,.3);
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
 /*----- Reformer Bed Styles -----*/
 .reformer-bed-header-container{
     height: 70vh;
