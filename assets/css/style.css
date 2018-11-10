@@ -323,8 +323,25 @@ body {
     margin-bottom:30px;
 }
 
+
+
 /*----- Workshop Styles -----*/
 .workshop-header-container {
+    height: 70vh;
+    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+
+/*----- Contact Us Styles -----*/
+.contact-header-container {
     height: 70vh;
     background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -411,7 +428,7 @@ footer {
 .about-header-container, .reformer-bed-header-container,.what-do-i-need-header-container, 
 .yogalates-header-container, .total-barre-header-container, .hot-yoga-header-container,
 .pregnancy-yoga-header-container, .meditation-header-container, .timetable-header-container, 
-.workshop-header-container{
+.workshop-header-container, .contact-header-container{
   height: 45vh;
 }
 .jumbotron h1 {
@@ -439,4 +456,8 @@ footer {
 .footer-box:nth-child(1), .footer-box:nth-child(2) {
   border-bottom:none;  
 }
+}
+
+@media all and (max-width: @breakpoint) { 
+  .hiddenSmall {display: none; }
 }
