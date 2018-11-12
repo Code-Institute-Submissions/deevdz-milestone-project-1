@@ -260,7 +260,7 @@ width: 60%;
 /*----- Yogalates Styles -----*/
 .yogalates-header-container{
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/yogalates-heaader-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -290,7 +290,7 @@ width: 60%;
 /*----- Hot Yoga Styles -----*/
 .hot-yoga-header-container{
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/hot-yoga-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -319,7 +319,7 @@ width: 60%;
 /*----- Pregnancy Yoga Styles -----*/
 .meditation-header-container {
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/meditation-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -351,7 +351,7 @@ width: 60%;
 /*----- Workshop Styles -----*/
 .workshop-header-container {
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/workshops-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
