@@ -422,6 +422,19 @@ footer {
   text-align:center;
 }
 
+.btn-outline-info {
+  color:#7ab5a7;
+  border-color: #7ab5a7;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #7ab5a7;
+    border-color: #7ab5a7;
+}
+
+
+
 /*-----Mobile and Tablet Styles-----*/
 
 @media (min-width: 992px ) {
