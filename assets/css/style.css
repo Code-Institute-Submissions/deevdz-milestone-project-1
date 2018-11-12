@@ -5,6 +5,29 @@ body {
   font-size:1.15em;
 }
 
+/*----- Common Styles -----*/
+.breadcrumb {
+position: absolute;
+top: 93%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color:rgba(255,255,255,0.1);
+border-radius: 0;
+width: 60%;
+}
+
+.breadcrumb-item a {
+  color:#ffffff;
+}
+
+.breadcrumb-item.active {
+  color:#fff;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #fff;
+}
+
 /*----- Style for Homepage Full Slider -----*/
 .carousel-item {
   height: 85vh;
@@ -33,7 +56,7 @@ body {
 
 /*-----Styles for Homepage-----*/
 .homepage-about-section {
-  background-color: #efefef;
+  background-color: transparent;
   padding:20px;
   text-align:center;
 }
@@ -150,7 +173,7 @@ body {
 /*-----About Page Styles-----*/
 .about-header-container {
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/about-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,7 +213,7 @@ body {
 /*----- What Do I Need Styles -----*/
 .what-do-i-need-header-container {
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/what-do-i-need-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -222,7 +245,7 @@ body {
 /*----- Reformer Bed Styles -----*/
 .reformer-bed-header-container{
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/reformer-bed-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -311,7 +334,7 @@ body {
 /*----- Timetable Styles -----*/
 .timetable-header-container {
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/timetable-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -343,7 +366,7 @@ body {
 /*----- Contact Us Styles -----*/
 .contact-header-container {
     height: 70vh;
-    background: url('https://via.placeholder.com/1980x1000.png') no-repeat center center fixed;
+    background: url('/assets/images/contact-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -444,8 +467,15 @@ footer {
 .workshop-header-container, .contact-header-container{
   height: 45vh;
 }
+.breadcrumb {
+  top:85%;
+  width:inherit;
+}
 .jumbotron h1 {
   font-size:2.25em;
+}
+.homepage-about-section {
+  background-color: #efefef;
 }
 }
 
