@@ -28,6 +28,17 @@ width: 60%;
     color: #fff;
 }
 
+table.table-fit {
+    width: auto !important;
+    table-layout: auto !important;
+}
+table.table-fit thead th, table.table-fit tfoot th {
+    width: auto !important;
+}
+table.table-fit tbody td, table.table-fit tfoot td {
+    width: auto !important;
+}
+
 /*----- Style for Homepage Full Slider -----*/
 .carousel-item {
   height: 85vh;
@@ -345,8 +356,58 @@ width: 60%;
     position: relative;
     margin-bottom:30px;
 }
+.timetable-fusion {
+  background:rgb(65, 57, 91);
+  color:#fff;
+}
 
+.timetable-pilates {
+  background-color:rgb(127, 75, 142);
+  color:#fff;
+}
 
+.timetable-pregnancy {
+  background-color:rgb(154, 184, 209);
+  color:#fff;
+}
+
+.timetable-yogalates {
+  background-color:rgb(105, 156, 144);
+  color:#fff;
+}
+
+.timetable-barre {
+  background-color:rgb(35, 50, 57);
+  color:#fff;
+}
+.timetable-heated {
+  background-color:rgb(57, 47, 35);
+  color:#fff;
+}
+.timetable-meditation {
+  background-color:rgb(39, 76, 119);
+  color:#fff;
+}
+
+.timetable-blank {
+  background-color:#efefef;
+}
+
+.timetable-time {
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+  margin-top: 1rem;
+  font-size: 0.9em;
+}
+
+.timetable-name {
+  font-weight:600;
+}
+
+.timetable-level {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
 
 /*----- Workshop Styles -----*/
 .workshop-header-container {
