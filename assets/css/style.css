@@ -54,6 +54,14 @@ width: 60%;
   font-weight: 600;
 }
 
+.teal-h4 {
+  color: #7ab5a7;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 1.4rem;
+  margin: 20px auto;
+}
+
 /*----- Style for Homepage Full Slider -----*/
 .carousel-item {
   height: 85vh;
@@ -90,7 +98,7 @@ width: 60%;
   text-align:center;
 }
 
-.homepage-about-section h1, .homepage-classes-section h1, .about-gallery h1, .contact-page h1 {
+.homepage-about-section h1, .homepage-classes-section h1, .about-gallery h1, .contact-page h1, .workshop-page h1 {
   font-size: 2.2rem;
   text-align: center;
   padding: 20px 0;
@@ -115,7 +123,7 @@ width: 60%;
 }
 
 .newsletter-signup-section {
-  background-color:#7ab5a7;
+  background:url(/assets/images/newsletter-bgrd-image.png) #7ab5a7 repeat center center;
   padding-top:40px;
   padding-bottom:40px;
 }
