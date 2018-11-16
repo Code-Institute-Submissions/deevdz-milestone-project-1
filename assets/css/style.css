@@ -469,6 +469,26 @@ width: 60%;
     margin-bottom:30px;
 }
 
+/*----- Privacy Policy Styles -----*/
+.privacy-policy-header-container {
+    height: 70vh;
+    background: url('/assets/images/privacy-policy-header-image.jpg') no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom:30px;
+}
+.privacy-policy-style h5{ 
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 /*-----Footer-----*/
 footer {
     background:rgba(57,47,35,0.9);
@@ -536,6 +556,10 @@ footer {
   text-align:center;
 }
 
+.footer-copyright a {
+color:#ffffff;
+}
+
 .btn-outline-info {
   color:#7ab5a7;
   border-color: #7ab5a7;
@@ -555,7 +579,7 @@ footer {
 .about-header-container, .reformer-bed-header-container,.what-do-i-need-header-container, 
 .yogalates-header-container, .total-barre-header-container, .hot-yoga-header-container,
 .pregnancy-yoga-header-container, .meditation-header-container, .timetable-header-container, 
-.workshop-header-container, .contact-header-container{
+.workshop-header-container, .contact-header-container, .privacy-policy-header-container{
   height: 45vh;
 }
 .breadcrumb {
