@@ -48,11 +48,11 @@ I've created a link in the footer that allows user to click and open a modal box
 
 Essentially a FAQ section that allows user to dropdown the information that is relevant to them.
 
-**Timetable - Responsive Table **
+**Timetable - Responsive Table**
 
 I have made the timetable table responsive using bootstrap to allow users to easily review the timetable.
 
-**Contact Form **
+**Contact Form**
 
 I've added a contact form to the Contact Us Page with required fields and a checkbox to cover GDPR.
 
