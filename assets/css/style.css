@@ -128,7 +128,7 @@ width: 60%;
   padding-bottom:40px;
 }
 .newsletter-signup-section h2 {
-  font-family: 'Oswald', sans serif;
+  font-family: 'Oswald', sans-serif;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -201,10 +201,10 @@ width: 60%;
     color:#ffffff;
     border:1px solid #ffffff;
     background-color:transparent;
-    transition:all 0.5 ease-in-out;
-    -moz-transition:all 0.5 ease-in-out;
-    -webkit-transition:all 0.5 ease-in-out;
-    -o-transition:all 0.5 ease-in-out;    
+    transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;    
 }
 
 .facebook-nav-link i:hover {
@@ -616,6 +616,6 @@ color:#ffffff;
 }
 }
 
-@media all and (max-width: @breakpoint) { 
+/*@media all { 
   .hiddenSmall {display: none; }
-}
+}*/
