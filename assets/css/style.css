@@ -6,6 +6,10 @@ body {
 }
 
 /*----- Common Styles -----*/
+hr {
+  margin:0px auto;
+}
+
 .breadcrumb {
 position: absolute;
 top: 93%;
