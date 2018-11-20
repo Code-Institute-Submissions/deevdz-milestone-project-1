@@ -19,20 +19,61 @@ Users to this site are looking for the following information:
 Link to Initial Thoughts document - /wireframes/Initial-thoughts.jpg
 
 **Links to wireframes**
+
 Homepage - /wireframes/homepage-wireframe.jpg
+
 About - /wireframes/about-wireframe.jpg
+
 Timetable - /wireframes/timetable-wireframe.jpg
+
 Contact - /wireframes/contact-page-wireframe.jpg
+
 Class Page - /wireframes/classes-wireframe.jpg
 
 
 Features
 -----------------------------------------
+**Homepage Slider**
+
+To add some interaction to the site - each slide links to the most visited/popular pages on the site (this was based on google analytics of current site) and new classes offered.
+
+**Newsletter Signup Form**
+
+Added an option for students to signup to a regular newsletter from the centre. This signup is intergrated with a MailChimp list.
+
+**Footer Modal Box - Google Map**
+I've created a link in the footer that allows user to click and open a modal box with the location of the centre pinned on a Google Map.
+
+**Classes - What do I need Page - Accordian**
+
+Essentially a FAQ section that allows user to dropdown the information that is relevant to them.
+
+**Timetable - Responsive Table **
+
+I have made the timetable table responsive using bootstrap to allow users to easily review the timetable.
+
+**Contact Form **
+
+I've added a contact form to the Contact Us Page with required fields and a checkbox to cover GDPR.
+
+
+Future Features
+-----------------
+- I would like to make the contact form actually send the information to either an email address or database.
+- Take online bookings for workshops
+- Take online bookings for classes
 
 
 
 Technologies Used
 -----------------------------------------
+Bootstrap v4.1.3 - https://getbootstrap.com/
+
+JQuery v3.3.1 
+
+Google Maps API
+
+Custom javascript for displaying google map - credit below
 
 
 Testing
@@ -44,8 +85,13 @@ Deployment
 Credits
 -----------------------------------------
 Navigation - https://www.codeply.com/go/qhaBrcWp3v
+
 Carousel Clickable - https://codepen.io/JacobLett/pen/PjKLgK
+
 Image Gallery - https://bootsnipp.com/snippets/p1qAD
+
 Google Map - Custom Style -https://snazzymaps.com/style/134/light-dream
+
 Google Map - Full width on contact page - https://mdbootstrap.com/docs/jquery/javascript/google-maps/
+
 Google Map - Modal Box: https://embed.plnkr.co/plunk/ZDkUYz
