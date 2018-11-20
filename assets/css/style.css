@@ -123,7 +123,7 @@ width: 60%;
 }
 
 .newsletter-signup-section {
-  background:url(/assets/images/newsletter-bgrd-image.png) #7ab5a7 repeat center center;
+  background:url(assets/images/newsletter-bgrd-image.png) #7ab5a7 repeat center center;
   padding-top:40px;
   padding-bottom:40px;
 }
@@ -214,7 +214,7 @@ width: 60%;
 /*-----About Page Styles-----*/
 .about-header-container {
     height: 70vh;
-    background: url('/assets/images/about-header-image.jpg') no-repeat center bottom fixed;
+    background: url('assets/images/about-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -254,7 +254,7 @@ width: 60%;
 /*----- What Do I Need Styles -----*/
 .what-do-i-need-header-container {
     height: 70vh;
-    background: url('/assets/images/what-do-i-need-header-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/what-do-i-need-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -286,7 +286,7 @@ width: 60%;
 /*----- Reformer Bed Styles -----*/
 .reformer-bed-header-container{
     height: 70vh;
-    background: url('/assets/images/reformer-bed-header-image.jpg') no-repeat center bottom fixed;
+    background: url('assets/images/reformer-bed-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -301,7 +301,7 @@ width: 60%;
 /*----- Yogalates Styles -----*/
 .yogalates-header-container{
     height: 70vh;
-    background: url('/assets/images/yogalates-heaader-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/yogalates-heaader-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -316,7 +316,7 @@ width: 60%;
 /*----- Total Barre Styles -----*/
 .total-barre-header-container{
     height: 70vh;
-    background: url('/assets/images/total-barre-header-image.jpg') no-repeat center bottom fixed;
+    background: url('assets/images/total-barre-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -331,7 +331,7 @@ width: 60%;
 /*----- Hot Yoga Styles -----*/
 .hot-yoga-header-container{
     height: 70vh;
-    background: url('/assets/images/hot-yoga-header-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/hot-yoga-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -345,7 +345,7 @@ width: 60%;
 /*----- Pregnancy Yoga Styles -----*/
 .pregnancy-yoga-header-container{
     height: 70vh;
-    background: url('/assets/images/pregnancy-yoga-header-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/pregnancy-yoga-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -360,7 +360,7 @@ width: 60%;
 /*----- Pregnancy Yoga Styles -----*/
 .meditation-header-container {
     height: 70vh;
-    background: url('/assets/images/meditation-header-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/meditation-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -375,7 +375,7 @@ width: 60%;
 /*----- Timetable Styles -----*/
 .timetable-header-container {
     height: 70vh;
-    background: url('/assets/images/timetable-header-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/timetable-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -442,7 +442,7 @@ width: 60%;
 /*----- Workshop Styles -----*/
 .workshop-header-container {
     height: 70vh;
-    background: url('/assets/images/workshops-header-image.jpg') no-repeat center center fixed;
+    background: url('assets/images/workshops-header-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -457,7 +457,7 @@ width: 60%;
 /*----- Contact Us Styles -----*/
 .contact-header-container {
     height: 70vh;
-    background: url('/assets/images/contact-header-image.jpg') no-repeat center bottom fixed;
+    background: url('assets/images/contact-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -472,7 +472,7 @@ width: 60%;
 /*----- Privacy Policy Styles -----*/
 .privacy-policy-header-container {
     height: 70vh;
-    background: url('/assets/images/privacy-policy-header-image.jpg') no-repeat center bottom fixed;
+    background: url('assets/images/privacy-policy-header-image.jpg') no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
