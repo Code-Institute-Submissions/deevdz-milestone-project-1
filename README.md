@@ -81,7 +81,7 @@ This website uses
 
 Testing
 -----------------------------------------
-I have tested the site across multiple browsers and mobile devices. As this site is using the bootstrap framework I am confident that it is responsive.
+I have tested the site across multiple browsers and mobile devices. As this site is using the bootstrap framework I am confident that it is responsive. I have checked that all links are working and going to the correct location.
 
 **Areas of concern when testing were the following:**
 1. Homepage Slider - I have tested that this is working across multiple browsers and mobile devices. I have made changes to the size of the slider based on screen size and also what information is displayed.
@@ -95,7 +95,7 @@ I have tested the site across multiple browsers and mobile devices. As this site
 
 Deployment
 -----------------------------------------
-
+Website has been deployed using GitHub Pages and can be found at this location - https://deevdz.github.io/milestone-project-1/index.html
 
 
 Credits
