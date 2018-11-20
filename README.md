@@ -79,11 +79,14 @@ Custom javascript for displaying google map - credit below
 Testing
 -----------------------------------------
 
+
 Deployment
 -----------------------------------------
 
 Credits
 -----------------------------------------
+**Code**
+---------
 Navigation - https://www.codeply.com/go/qhaBrcWp3v
 
 Carousel Clickable - https://codepen.io/JacobLett/pen/PjKLgK
@@ -95,3 +98,19 @@ Google Map - Custom Style -https://snazzymaps.com/style/134/light-dream
 Google Map - Full width on contact page - https://mdbootstrap.com/docs/jquery/javascript/google-maps/
 
 Google Map - Modal Box: https://embed.plnkr.co/plunk/ZDkUYz
+
+**Media**
+--------------
+Images aquired from BigStockPhoto.com account
+
+Images from Owner of Headford Wellbeing Centre
+
+Images from Owner of Burren Yoga Centre
+
+**Content**
+-------------
+All content is from the existing Headford Wellbeing Centre website which was written by the owner of the site and myself.
+
+**Acknowledgements**
+----------
+I received inspiration for this project from both Themeforest and Pinterest.
