@@ -1,18 +1,26 @@
+#Headford Wellbeing Centre - Responsive Website
+======================================
+My friend has her own business, Headford Wellbeing Centre. She currently has a website but this website is not responsive.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+In order to stay relevant I felt that she now required a responsive website with a new look and feel.
 
+##UX
+-----------------------------------------
 
-Hi there! Welcome to Cloud9 IDE!
+##Features
+-----------------------------------------
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+##Technologies Used
+-----------------------------------------
 
-Happy coding!
-The Cloud9 IDE team
+##UX
+-----------------------------------------
+
+##Testing
+-----------------------------------------
+
+##Deployment
+-----------------------------------------
+
+##Credtits
+-----------------------------------------
