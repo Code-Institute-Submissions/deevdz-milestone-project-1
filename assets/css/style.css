@@ -272,6 +272,7 @@ width: 60%;
 
 .card-header {
   background-color: rgba(153,184,209,.3);
+  cursor: pointer;
 }
 
 .accordion .card-header:after {
