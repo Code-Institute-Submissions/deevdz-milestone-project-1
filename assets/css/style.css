@@ -68,13 +68,13 @@ width: 60%;
 
 /*----- Style for Homepage Full Slider -----*/
 .carousel-item {
-  height: 80vh;
-  min-height: 220px;
+  height: 90vh;
+  min-height: 300px;
 }
 
 .carousel-item img {
-  height: 80vh;
-  min-height: 200px;
+  height: 90vh;
+  min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -350,7 +350,7 @@ width: 60%;
 /*----- Pregnancy Yoga Styles -----*/
 .pregnancy-yoga-header-container{
     height: 70vh;
-    background: url('../images/pregnancy-yoga-header-image.jpg') no-repeat center center fixed;
+    background: url('../images/pregnancy-yoga-header-image.jpg') no-repeat center right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -362,10 +362,10 @@ width: 60%;
     margin-bottom:30px;
 }
 
-/*----- Pregnancy Yoga Styles -----*/
+/*----- Meditation Styles -----*/
 .meditation-header-container {
     height: 70vh;
-    background: url('../images/meditation-header-image.jpg') no-repeat center center fixed;
+    background: url('../images/meditation-header-image.jpg') no-repeat center right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -587,6 +587,17 @@ color:#ffffff;
 .workshop-header-container, .contact-header-container, .privacy-policy-header-container{
   height: 45vh;
 }
+
+.carousel-item {
+  height: 80vh;
+  min-height: 350px;
+}
+
+.carousel-item img {
+  height: 80vh;
+  min-height: 350px;
+}
+
 .breadcrumb {
   top:85%;
   width:inherit;
