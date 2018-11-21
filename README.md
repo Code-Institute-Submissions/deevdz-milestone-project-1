@@ -86,7 +86,7 @@ I have tested the site across multiple browsers and mobile devices. As this site
 **Areas of concern when testing were the following:**
 1. Homepage Slider - I have tested that this is working across multiple browsers and mobile devices. I have made changes to the size of the slider based on screen size and also what information is displayed.
 2. Navigation - I have tested that the navigation changes to a burger menu on mobile devices and that the dropdown menu is working as expected.
-3. What do I need page - I have tested that the accordian is working as it should across all browsers and mobile devices.
+3. What do I need page - I have tested that the accordian is working as it should across all browsers and mobile devices. There was an issue with the accordian expanding on iPhones. The fix involved adding the following css "cursor: pointer;" to the dropdown area of the accordian header.
 4. Timetable page - The responsive table is working as expected with a scroll bar appearing on smaller devices to allow users to see the contents of the table at a resonable size.
 5. Map in Modal Box in Footer - I have tested the functionality of this feature across all browsers and devices and it is working as it should. Allowing users to open a modal box, view the location on a map and then exit out of the modal box by clicking on the close button.
 6. Call to action - Newsletter sign up at the bottom of the pages - I have incorporated mailchimp code to allow users to add themselves to an existing mailing list. I have tested this feature by successfully adding one of my email addresses to the list.
