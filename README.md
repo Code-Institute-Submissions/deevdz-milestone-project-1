@@ -2,20 +2,20 @@ Headford Wellbeing Centre - Responsive Website
 ======================================
 My friend has her own business, Headford Wellbeing Centre. She currently has a website but this site is not responsive.
 
-With an increasing number of students to her centre now using mobiles to view her site, I felt that she required a responsive website with a new look and feel.
+With an increasing number of students to her centre now using mobile devices to view her site, I felt that she required a responsive website with a new look and feel.
 
 UX
 -----------------------------------------
 This website is for both new and existing students to the Headford Wellbeing Centre. 
 
 Users to this site are looking for the following information:
-- Find out about the centre -> Teachers, Classes Offered, Images of the Centre
+- Find out about the centre -> Teachers, classes offered, images of the centre
 - Find out where exactly the centre is -> Address and a map to the centre
-- Find out when classes are on -> Timetables and Prices of classes
+- Find out when classes are on -> Timetables and prices of classes
 - Find out information about the different types of classes on offer at the centre
 - Find out about workshops -> Timetable of workshops, descriptions, prices, location
 - Find out about future classes/workshops -> Call to action sign up form to receive information via email
-- Contact Details for centre -> Phone no., Address, Email Address
+- Contact Details for centre -> Phone no., address, email address
 
 [Link to Initial Thoughts document](wireframes/Initial-thoughts.jpg)
 
@@ -36,11 +36,11 @@ Features
 -----------------------------------------
 **Homepage Slider**
 
-To add some interaction to the site - each slide links to the most visited/popular pages on the site (this was based on google analytics of current site) and new classes offered.
+To add some interaction to the site - each slide links to the most visited/popular pages on the site (this was based on Google Analytics of current site) and new classes offered.
 
 **Newsletter Signup Form**
 
-Added an option for students to signup to a regular newsletter from the centre. This signup is intergrated with a MailChimp list.
+Added an option for users to signup to a regular newsletter from the centre. This signup is integrated with a MailChimp list.
 
 **Footer Modal Box - Google Map**
 
@@ -68,7 +68,7 @@ Future Features
 - Make the contact form active - allowing it to send the information to either an email address or database.
 - Take online bookings for workshops
 - Take online bookings for classes
-- Add a lightbox feature to the masonary galleries that would allow users to view a bigger version of the image in a lighbox.
+- Add a lightbox feature to the masonry galleries that would allow users to view a bigger version of the image in a lighbox.
 
 
 Technologies Used
@@ -112,7 +112,7 @@ Credits
 
 **Media:**
 
-Images aquired from [BigStockPhoto.com](https://www.bigstockphoto.com/) account
+Images acquired from [BigStockPhoto.com](https://www.bigstockphoto.com/) account
 
 Images from Owner of Headford Wellbeing Centre
 
@@ -126,6 +126,6 @@ All content is from the existing Headford Wellbeing Centre website which was wri
 
 Inspiration for this project came from sites featured on both Themeforest and Pinterest.
 
-**Contact**
-
+Contact
+-----------------------------------------
 Created by [Deirdre van der Zee](mailto:deirdrevanderzee@gmail.com).
